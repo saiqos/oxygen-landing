@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicing BEM</title>
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Montserrat:wght@100..900&family=Open+Sans:wght@300..800&family=Raleway:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="libs/youtubeLightbox/youtubeLightbox.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container container_size--big">
+                <div class="header__top-inner">
+                    <div class="logo">
+                        <a class="logo__link" href="#">
+                            <img class="logo__img" src="img/icons/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header__burger">
+                        <span class="header__burger-line"></span>
+                    </div>
+                    <nav class="nav header__nav">
+                        <ul class="nav__list">
+                            <li class="nav__li">
+                                <a class="nav__link nav__link_active" href="#">HOME</a>
+                            </li>
+                            <li class="nav__li">
+                                <a class="nav__link" href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav__li">
+                                <a class="nav__link" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav__li">
+                                <a class="nav__link" href="#">OUR TEAM</a>
+                            </li>
+                            <li class="nav__li">
+                                <a class="nav__link" href="#">BLOG</a>
+                            </li>
+                            <li class="nav__li">
+                                <a class="nav__link" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <h1 class="header__content-title">OXYGEN</h1>
+                    <p class="header__content-subtitle">STARTER UI KIT</p>
+                    <div class="header__content-decor"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <h2 class="about__title title">About Us</h2>
+                    <div class="about__text two-paragraphs-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi
+                            totam culpa, dolorum
+                            asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis
+                            dignissimos
+                            aliquam ad minus nisi. In, fuga blanditiis non cum cupiditate dolore, accusantium odio
+                            doloremque quibusdam dignissimos nemo sed nisi, similique, mollitia et! Autem laborum sint
+                            tenetur, earum facere veniam?
+                        </p>
+                        <p>
+                            Sunt fugiat veniam consectetur soluta quia ex tempora quaerat, perferendis! Itaque a
+                            praesentium
+                            saepe ex distinctio aliquid quis laborum sit, porro dolor odio, iste eos laboriosam dolorum
+                            maiores harum reiciendis vitae doloribus illum voluptatibus nobis maxime assumenda ipsam
+                            tempora
+                            fugiat. Perspiciatis quibusdam hic cum tempore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="expertise">
+            <div class="container">
+                <div class="title-wrapper expertise__title-wrapper">
+                    <h2 class="title expertise__title">Our Expertise</h2>
+                </div>
+                <div class="expertise__content">
+                    <div class="expertise__statistics">
+                        <div class="expertise__statistics-item">
+                            <div class="expertise__statistics-item-line">
+                                <div class="expertise__statistics-item-line_active"></div>
+                            </div>
+                            <div class="expertise__statistics-item-value">
+                                <span>BRANDING</span>
+                                <span class="values-of-lines">90%</span>
+                            </div>
+                        </div>
+                        <div class="expertise__statistics-item">
+                            <div class="expertise__statistics-item-line">
+                                <div class="expertise__statistics-item-line_active"></div>
+                            </div>
+                            <div class="expertise__statistics-item-value">
+                                <span>DESIGN</span>
+                                <span class="values-of-lines">80%</span>
+                            </div>
+                        </div>
+                        <div class="expertise__statistics-item">
+                            <div class="expertise__statistics-item-line">
+                                <div class="expertise__statistics-item-line_active"></div>
+                            </div>
+                            <div class="expertise__statistics-item-value">
+                                <span>DEVELOPMENT</span>
+                                <span class="values-of-lines">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="expertise__text two-paragraphs-text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa,
+                            dolorum
+                            asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis
+                            dignissimos
+                            aliquam ad minus nisi.
+                        </p>
+                        <p>
+                            Autem laborum sint tenetur, earum facere veniam? Sunt fugiat veniam consectetur soluta quia
+                            ex
+                            tempora quaerat, perferendis! Itaque a praesentium saepe ex distinctio aliquid quis
+                        </p>
+                    </div>
+                </div>
+                <div class="expertise__services">
+                    <div class="expertise__services-item">
+                        <img class="expertise__services-img" src="img/icons/services__vector.svg" alt="">
+                        <div class="expertise__services-item-content">
+                            <h3 class="expertise__sevices-title">
+                                GRAPHIC DESIGN
+                            </h3>
+                            <p class="expertise__services-text two-paragraphs-text">
+                                Lorem Ipsum Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                                bibendum auctor, nisi elit consequat ipsum
+                            </p>
+                        </div>
+                    </div>
+                    <div class="expertise__services-item">
+                        <img class="expertise__services-img" src="img/icons/services__monitor.svg" alt="">
+                        <div class="expertise__services-item-content">
+                            <h3 class="expertise__sevices-title">
+                                WEB DEVELOPMENT
+                            </h3>
+                            <p class="expertise__services-text two-paragraphs-text">
+                                Lorem Ipsum Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                                bibendum auctor, nisi elit consequat ipsum
+                            </p>
+                        </div>
+                    </div>
+                    <div class="expertise__services-item">
+                        <img class="expertise__services-img" src="img/icons/services__speaker.svg" alt="">
+                        <div class="expertise__services-item-content">
+                            <h3 class="expertise__sevices-title">
+                                MARKETING
+                            </h3>
+                            <p class="expertise__services-text two-paragraphs-text">
+                                Lorem Ipsum Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                                bibendum auctor, nisi elit consequat ipsum
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features">
+            <div class="features__inner">
+                <img class="features__img" src="img/features__hero.png" alt="">
+                <div class="features__content">
+                    <h2 class="features__content-title title">Let’s make magic.</h2>
+                    <div class="features__content-text two-paragraphs-text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero veniam odio itaque.
+                            Molestiae
+                            aut dicta accusantium quod, modi ad alias enim dolor delectus iusto! Inventore tempora
+                            labore
+                            nobis doloribus optio nulla sit corrupti nostrum, tempore debitis pariatur minus maiores
+                            velit,
+                            autem ex eum distinctio error fugit. Itaque voluptatum quam veritatis fuga impedit nulla
+                            dolor.
+                        </p>
+                        <p>
+                            Nam dignissimos, ratione odit doloribus cum porro, aut. Ipsum nisi odio voluptatum, et,
+                            reprehenderit accusamus, est provident debitis dicta ullam esse assumenda, odit? Alias
+                            architecto enim pariatur libero ipsam mollitia maiores minus quibusdam numquam perspiciatis
+                            eveniet sit dolores eligendi inventore, ea voluptatum debitis iure, repellendus iste culpa!
+                            Voluptatibus quam ipsum nisi odit deserunt qui, consectetur ducimus, quis officia quaerat
+                            sapiente dolores, ad libero! Tenetur provident, omnis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio">
+            <div class="container">
+                <div class="portfolio__top">
+                    <div class="title-wrapper portfolio__title-wrapper">
+                        <h2 class="title portfolio__title">Portfolio</h2>
+                    </div>
+                    <nav class="portfolio__nav nav ">
+                        <ul class="nav__list">
+                            <li class="nav__li">
+                                <a class="nav__link nav__link_active" href="#">ALL</a>
+                            </li>
+                            <li class="nav__li">
+                                <a class="nav__link" href="#">BRANDING</a>
+                            </li>
+                            <li class="nav__li">
+                                <a class="nav__link" href="#">BRANDING</a>
+                            </li>
+                            <li class="nav__li">
+                                <a class="nav__link" href="#">PHOTOGRAPHY</a>
+                            </li>
+                            <li class="nav__li">
+                                <a class="nav__link" href="#">ILLUSTRATION</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="portfolio__content">
+                <div class="portfolio__col">
+                    <div class="portfolio__item portfolio__item_1">
+                        <div class="portfolio__item-name">OCCA CUPIDATAT</div>
+                        <p class="portfolio__item-service">DESIGN</p>
+                    </div>
+                    <div class="portfolio__item portfolio__item_2">
+                        <div class="portfolio__item-name">OCCA CUPIDATAT</div>
+                        <p class="portfolio__item-service">DESIGN</p>
+                    </div>
+                </div>
+                <div class="portfolio__col">
+
+                    <div class="portfolio__item portfolio__item_3">
+                        <div class="portfolio__item-name">OCCA CUPIDATAT</div>
+                        <p class="portfolio__item-service">DESIGN</p>
+                    </div>
+                    <div class="portfolio__item portfolio__item_4">
+                        <div class="portfolio__item-name">OCCA CUPIDATAT</div>
+                        <p class="portfolio__item-service">DESIGN</p>
+                    </div>
+                    <div class="portfolio__item portfolio__item_5">
+                        <div class="portfolio__item-name">OCCA CUPIDATAT</div>
+                        <p class="portfolio__item-service">DESIGN</p>
+                    </div>
+                </div>
+                <div class="portfolio__col">
+                    <div class="portfolio__item portfolio__item_6">
+                        <div class="portfolio__item-name">OCCA CUPIDATAT</div>
+                        <p class="portfolio__item-service">DESIGN</p>
+                    </div>
+                    <div class="portfolio__item portfolio__item_7">
+                        <div class="portfolio__item-name">OCCA CUPIDATAT</div>
+                        <p class="portfolio__item-service">DESIGN</p>
+                    </div>
+                </div>
+                <div class="portfolio__col">
+                    <div class="portfolio__item portfolio__item_8">
+                        <div class="portfolio__item-name">OCCA CUPIDATAT</div>
+                        <p class="portfolio__item-service">DESIGN</p>
+                    </div>
+                    <div class="portfolio__item portfolio__item_9">
+                        <div class="portfolio__item-name">OCCA CUPIDATAT</div>
+                        <p class="portfolio__item-service">DESIGN</p>
+                    </div>
+                </div>
+            </div>
+            <button class="portfolio__expand-btn">VIEW MORE PROJECTS</button>
+        </section>
+        <section class="quote">
+            <div class="container">
+                <div class="quote__content">
+                    <blockquote class="quote__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </blockquote>
+                    <p class="quote__author">Gilbert Hammond</p>
+                </div>
+            </div>
+        </section>
+        <section class="video">
+            <div class="video__content">
+                <a class="video__btn-play" href="https://www.youtube.com/watch?v=jNQXAC9IVRw&ab_channel=jawed"
+                    data-youtubeLightbox></a>
+            </div>
+        </section>
+        <section class="statistics">
+            <div class="container">
+                <div class="statistics__content">
+                    <div class="statistics__item">
+                        <span class="statistics__item-amount">305</span>
+                        <p class="statistics__item-name">Web Designs</p>
+                    </div>
+                    <div class="statistics__item">
+                        <span class="statistics__item-amount">220</span>
+                        <p class="statistics__item-name">Logo Designs</p>
+                    </div>
+                    <div class="statistics__item">
+                        <span class="statistics__item-amount">52</span>
+                        <p class="statistics__item-name">Print Designs</p>
+                    </div>
+                    <div class="statistics__item">
+                        <span class="statistics__item-amount">88</span>
+                        <p class="statistics__item-name">Mobile Apps</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="featured-project">
+            <div class="container">
+                <div class="featured-project__inner">
+                    <div class="featured-project__content">
+                        <div class="featured-project__item">
+                            <h4 class="featured-project__title">
+                                Then they show that show to the
+                                people who make shows
+                            </h4>
+                            <p class="featured-project__text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and
+                                the
+                                tyranny
+                                of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak
+                                through
+                                the
+                                valley of darkness, for he is truly his brother’s.
+                            </p>
+                        </div>
+                        <div class="featured-project__item">
+                            <h4 class="featured-project__title">
+                                Then they show that show to the
+                                people who make shows
+                            </h4>
+                            <p class="featured-project__text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and
+                                the
+                                tyranny
+                                of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak
+                                through
+                                the
+                                valley of darkness, for he is truly his brother’s.
+                            </p>
+                        </div>
+                        <div class="featured-project__item">
+                            <h4 class="featured-project__title">
+                                Then they show that show to the
+                                people who make shows
+                            </h4>
+                            <p class="featured-project__text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and
+                                the
+                                tyranny
+                                of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak
+                                through
+                                the
+                                valley of darkness, for he is truly his brother’s.
+                            </p>
+                        </div>
+                        <div class="featured-project__item">
+                            <h4 class="featured-project__title">
+                                Then they show that show to the
+                                people who make shows
+                            </h4>
+                            <p class="featured-project__text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and
+                                the
+                                tyranny
+                                of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak
+                                through
+                                the
+                                valley of darkness, for he is truly his brother’s.
+                            </p>
+                        </div>
+                        <div class="featured-project__item">
+                            <h4 class="featured-project__title">
+                                Then they show that show to the
+                                people who make shows
+                            </h4>
+                            <p class="featured-project__text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and
+                                the
+                                tyranny
+                                of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak
+                                through
+                                the
+                                valley of darkness, for he is truly his brother’s.
+                            </p>
+                        </div>
+                        <div class="featured-project__item">
+                            <h4 class="featured-project__title">
+                                Then they show that show to the
+                                people who make shows
+                            </h4>
+                            <p class="featured-project__text">
+                                The path of the righteous man is beset on all sides by the iniquities of the selfish and
+                                the
+                                tyranny
+                                of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak
+                                through
+                                the
+                                valley of darkness, for he is truly his brother’s.
+                            </p>
+                        </div>
+                    </div>
+                    <button class="featured-project__btn-left"></button>
+                    <button class="featured-project__btn-right"></button>
+                    <div class="featured-project__pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="team">
+            <div class="container">
+                <div class="title-wrapper team__title-wrapper">
+                    <h2 class="title team__title">Our Team</h2>
+                </div>
+                <div class="team__content">
+                    <div class="team__item">
+                        <img class="team__item-img" src="img/team-1.png" alt="">
+                        <p class="team__item-name">BERNARD SPARKS</p>
+                        <span class="team__item-role">CEO</span>
+                    </div>
+                    <div class="team__item">
+                        <img class="team__item-img" src="img/team-2.png" alt="">
+                        <p class="team__item-name">MINERVA BENSON</p>
+                        <span class="team__item-role">Co-Founder</span>
+                    </div>
+                    <div class="team__item">
+                        <img class="team__item-img" src="img/team-3.png" alt="">
+                        <p class="team__item-name">JARED OLSON</p>
+                        <span class="team__item-role">Sales</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pricing">
+            <div class="container">
+                <div class="title-wrapper pricing__title-wrapper">
+                    <h2 class="title pricing__title">Pricing Plans</h2>
+                </div>
+                <div class="pricing__content">
+                    <div class="pricing__item">
+                        <span class="pricing__item-type">Basic</span>
+                        <div class="pricing__item-price">
+                            <span class="pricing__item-currency">$</span>
+                            <span class="pricing__item-amount">29</span>
+                            <span class="pricing__item-term"> / mo</span>
+                        </div>
+                        <div class="pricing__item-description">
+                            <p>1 Logo Design</p>
+                            <p>1 Website Design</p>
+                            <p>1 Domain Free</p>
+                            <p>3 Month License</p>
+                            <p>1 GB Storage</p>
+                        </div>
+                        <button class="pricing__item-btn-choose">
+                            CHOOSE PLAN
+                        </button>
+                    </div>
+                    <div class="pricing__item">
+                        <span class="pricing__item-type">Starter</span>
+                        <div class="pricing__item-price">
+                            <span class="pricing__item-currency">$</span>
+                            <span class="pricing__item-amount">50</span>
+                            <span class="pricing__item-term"> / mo</span>
+                        </div>
+                        <div class="pricing__item-description">
+                            <p>1 Logo Design</p>
+                            <p>1 Website Design</p>
+                            <p>1 Domain Free</p>
+                            <p>3 Month License</p>
+                            <p>1 GB Storage</p>
+                        </div>
+                        <button class="pricing__item-btn-choose">
+                            CHOOSE PLAN
+                        </button>
+                    </div>
+                    <div class="pricing__item">
+                        <span class="pricing__item-type">Professional</span>
+                        <div class="pricing__item-price">
+                            <span class="pricing__item-currency">$</span>
+                            <span class="pricing__item-amount">70</span>
+                            <span class="pricing__item-term"> / mo</span>
+                        </div>
+                        <div class="pricing__item-description">
+                            <p>1 Logo Design</p>
+                            <p>1 Website Design</p>
+                            <p>1 Domain Free</p>
+                            <p>3 Month License</p>
+                            <p>1 GB Storage</p>
+                        </div>
+                        <button class="pricing__item-btn-choose">
+                            CHOOSE PLAN
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact__inner">
+                <div class="contact__content">
+                    <div class="title-wrapper contact__title-wrapper">
+                        <h2 class="title contact__title">Get in Touch</h2>
+                    </div>
+                    <form class="contact__form" action="#">
+                        <input class="contact__form-input" placeholder="YOUR NAME" type="text" name="#" id="#">
+                        <input class="contact__form-input" placeholder="VALID EMAIL" type="email" name="#" id="#">
+                        <textarea class="contact__form-textarea" placeholder="YOUR MESSAGE">
+                        </textarea>
+                        <button class="contact__form-submit" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <iframe class="contact__map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23994.78647559901!2d21.01319102782914!3d52.251211599571334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc661b455407%3A0x2019a146fb49c9be!2z0JrQvtGA0L7Qu9C10LLRgdC60LjQuSDQt9Cw0LzQvtC6!5e0!3m2!1sru!2spl!4v1697025696699!5m2!1sru!2spl"
+                    width="674" height="902" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__body">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="logo footer__logo">
+                        <a class="logo__link" href="#">
+                            <img class="logo__img" src="img/icons/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="footer__yellow-line"></div>
+                    <div class="footer__partners">
+                        <ul class="footer__partners-list">
+                            <li class="footer__partners-li"><a href="#" class="footer__partners-link">FACEBOOK</a></li>
+                            <li class="footer__partners-li"><a href="#" class="footer__partners-link">TWITTER</a></li>
+                            <li class="footer__partners-li"><a href="#" class="footer__partners-link">GOOGLE+</a></li>
+                            <li class="footer__partners-li"><a href="#" class="footer__partners-link">BEHANCE</a></li>
+                            <li class="footer__partners-li"><a href="#" class="footer__partners-link">DRIBBLE</a></li>
+                            <li class="footer__partners-li"><a href="#" class="footer__partners-link">INSTAGRAM</a></li>
+                        </ul>
+                    </div>
+                    <address class="footer__address">
+                        <span class="footer__address-item">Mese Selimovica 52, Banja Luka - BiH</span>
+                        <span class="footer__address-item">(00387) 65 252 222</span>
+                        <span class="footer__address-item">info@mail.com</span>
+                    </address>
+                    <button class="footer__btn"><img src="img/icons/goToTop-btn.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright-text">@2015 Oxygen Theme</p>
+        </div>
+    </footer>
+
+    <!-- YouTube LightBox -->
+    <div id="youtubelightbox" class="youtubelightbox">
+        <div class="youtubelightbox__centeredchild">
+            <div class="youtubelightbox__videowrapper">
+                <div id="youtubelightboxPlayer"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- lightBox -->
+    <script src="./libs/youtubeLightbox/youtubeLightbox.js"></script>
+    <!-- slider -->
+    <script src="./libs/slick-slider/slick.min.js"></script>
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
